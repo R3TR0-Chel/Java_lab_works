@@ -10,7 +10,7 @@ public class Main {
         }
         System.out.println(Arrays.toString(arr));
         Func(arr);
-        Palindrom("LoL");
+        Palindrom("Lol");
     }
     public static void Func(int[] arr){
         int min = arr[0];
@@ -22,15 +22,15 @@ public class Main {
             if (arr[i] > max){
                 max = arr[i];
             }
-            else if (arr[i]< second_min && arr[i] != min) {
-                second_min = arr[i];
+            if (arr[i] > second_max && arr[i] != max) {
+                second_max = arr[i];
             }
             if (arr[i]<min){
                 min = arr[i];
             }
-            else if (arr[i] > second_max && arr[i] != max) {
-            second_max = arr[i];
-        }
+            if (arr[i]< second_min && arr[i] != min) {
+                second_min = arr[i];
+            }
             summ += arr[i];
         }
         double avg = (double)summ / arr.length;
