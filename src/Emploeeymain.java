@@ -1,4 +1,4 @@
-public class employee {
+public class Emploeeymain{
         public static void main(String[] args) {
             Employee fte = new FullTimeEmployee("Alice", 101, 5000);
             Employee cte = new ContractEmployee("Bob", 102, 0, 50, 160);
