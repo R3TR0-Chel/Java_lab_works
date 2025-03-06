@@ -11,6 +11,7 @@ public class HashMapPractice {
         addStudent(s1);
         addStudent(s2);
         addStudent(s3);
+        DisplayAllStudents();
         addCourseToStudent(2, "Discrete Math");
         addCourseToStudent(1, "Python");
         addCourseToStudent(3, "Java");
